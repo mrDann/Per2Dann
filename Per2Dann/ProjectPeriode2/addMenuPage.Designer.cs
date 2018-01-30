@@ -41,21 +41,21 @@
             // 
             // addMenuButton
             // 
-            this.addMenuButton.Location = new System.Drawing.Point(760, 83);
-            this.addMenuButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.addMenuButton.Location = new System.Drawing.Point(752, 302);
+            this.addMenuButton.Margin = new System.Windows.Forms.Padding(4);
             this.addMenuButton.Name = "addMenuButton";
-            this.addMenuButton.Size = new System.Drawing.Size(364, 119);
+            this.addMenuButton.Size = new System.Drawing.Size(329, 46);
             this.addMenuButton.TabIndex = 0;
-            this.addMenuButton.Text = "Toevoegen";
+            this.addMenuButton.Text = "+ Menu";
             this.addMenuButton.UseVisualStyleBackColor = true;
             this.addMenuButton.Click += new System.EventHandler(this.addMenuButton_Click);
             // 
             // inputVoorgerecht
             // 
             this.inputVoorgerecht.Location = new System.Drawing.Point(206, 83);
-            this.inputVoorgerecht.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.inputVoorgerecht.Margin = new System.Windows.Forms.Padding(6);
             this.inputVoorgerecht.Name = "inputVoorgerecht";
-            this.inputVoorgerecht.Size = new System.Drawing.Size(364, 31);
+            this.inputVoorgerecht.Size = new System.Drawing.Size(422, 31);
             this.inputVoorgerecht.TabIndex = 1;
             // 
             // labelVoorgerecht
@@ -81,9 +81,9 @@
             // inputHoofdgerecht
             // 
             this.inputHoofdgerecht.Location = new System.Drawing.Point(206, 138);
-            this.inputHoofdgerecht.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.inputHoofdgerecht.Margin = new System.Windows.Forms.Padding(6);
             this.inputHoofdgerecht.Name = "inputHoofdgerecht";
-            this.inputHoofdgerecht.Size = new System.Drawing.Size(364, 31);
+            this.inputHoofdgerecht.Size = new System.Drawing.Size(422, 31);
             this.inputHoofdgerecht.TabIndex = 3;
             // 
             // labelNagerecht
@@ -99,9 +99,9 @@
             // inputNagerecht
             // 
             this.inputNagerecht.Location = new System.Drawing.Point(206, 188);
-            this.inputNagerecht.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.inputNagerecht.Margin = new System.Windows.Forms.Padding(6);
             this.inputNagerecht.Name = "inputNagerecht";
-            this.inputNagerecht.Size = new System.Drawing.Size(364, 31);
+            this.inputNagerecht.Size = new System.Drawing.Size(422, 31);
             this.inputNagerecht.TabIndex = 5;
             // 
             // labelPrijs
@@ -117,16 +117,16 @@
             // inputPrijs
             // 
             this.inputPrijs.Location = new System.Drawing.Point(206, 252);
-            this.inputPrijs.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.inputPrijs.Margin = new System.Windows.Forms.Padding(6);
             this.inputPrijs.Name = "inputPrijs";
-            this.inputPrijs.Size = new System.Drawing.Size(364, 31);
+            this.inputPrijs.Size = new System.Drawing.Size(422, 31);
             this.inputPrijs.TabIndex = 7;
             // 
             // addMenuPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1204, 671);
+            this.ClientSize = new System.Drawing.Size(1204, 431);
             this.Controls.Add(this.labelPrijs);
             this.Controls.Add(this.inputPrijs);
             this.Controls.Add(this.labelNagerecht);
@@ -136,7 +136,7 @@
             this.Controls.Add(this.labelVoorgerecht);
             this.Controls.Add(this.inputVoorgerecht);
             this.Controls.Add(this.addMenuButton);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "addMenuPage";
             this.Text = "Menu\'s toevoegen";
             this.ResumeLayout(false);

@@ -55,9 +55,9 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(594, 85);
+            this.button1.Location = new System.Drawing.Point(590, 84);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(242, 45);
+            this.button1.Size = new System.Drawing.Size(363, 45);
             this.button1.TabIndex = 0;
             this.button1.Text = "Reserveringen beheren";
             this.button1.UseVisualStyleBackColor = true;
@@ -66,9 +66,9 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(594, 161);
+            this.button3.Location = new System.Drawing.Point(590, 151);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(242, 41);
+            this.button3.Size = new System.Drawing.Size(363, 41);
             this.button3.TabIndex = 2;
             this.button3.Text = "Menu\'s beheren";
             this.button3.UseVisualStyleBackColor = true;
@@ -77,9 +77,9 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(594, 239);
+            this.button4.Location = new System.Drawing.Point(590, 213);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(242, 46);
+            this.button4.Size = new System.Drawing.Size(363, 48);
             this.button4.TabIndex = 3;
             this.button4.Text = "Klanten beheren";
             this.button4.UseVisualStyleBackColor = true;
@@ -89,15 +89,15 @@
             // 
             this.resViewNext.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.resViewNext.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.resViewNext.Location = new System.Drawing.Point(12, 346);
+            this.resViewNext.Location = new System.Drawing.Point(12, 302);
             this.resViewNext.Name = "resViewNext";
-            this.resViewNext.Size = new System.Drawing.Size(824, 260);
+            this.resViewNext.Size = new System.Drawing.Size(747, 260);
             this.resViewNext.TabIndex = 4;
             // 
             // labelResView
             // 
             this.labelResView.AutoSize = true;
-            this.labelResView.Location = new System.Drawing.Point(5, 306);
+            this.labelResView.Location = new System.Drawing.Point(5, 262);
             this.labelResView.Name = "labelResView";
             this.labelResView.Size = new System.Drawing.Size(442, 37);
             this.labelResView.TabIndex = 5;
@@ -106,7 +106,7 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(467, 7);
+            this.dateTimePicker1.Location = new System.Drawing.Point(542, 14);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(245, 44);
             this.dateTimePicker1.TabIndex = 6;
@@ -114,7 +114,7 @@
             // labelTijd
             // 
             this.labelTijd.AutoSize = true;
-            this.labelTijd.Location = new System.Drawing.Point(735, 14);
+            this.labelTijd.Location = new System.Drawing.Point(802, 14);
             this.labelTijd.Name = "labelTijd";
             this.labelTijd.Size = new System.Drawing.Size(84, 37);
             this.labelTijd.TabIndex = 7;
@@ -250,7 +250,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(20F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(897, 627);
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(976, 571);
             this.Controls.Add(this.button14);
             this.Controls.Add(this.button13);
             this.Controls.Add(this.button12);

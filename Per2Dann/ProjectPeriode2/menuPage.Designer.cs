@@ -51,7 +51,7 @@
             this.menuView.Location = new System.Drawing.Point(46, 31);
             this.menuView.Margin = new System.Windows.Forms.Padding(6);
             this.menuView.Name = "menuView";
-            this.menuView.Size = new System.Drawing.Size(925, 550);
+            this.menuView.Size = new System.Drawing.Size(925, 402);
             this.menuView.TabIndex = 1;
             // 
             // delMenuButton
@@ -70,7 +70,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1528, 813);
+            this.ClientSize = new System.Drawing.Size(1528, 530);
             this.Controls.Add(this.delMenuButton);
             this.Controls.Add(this.menuView);
             this.Controls.Add(this.addMenuButton);
